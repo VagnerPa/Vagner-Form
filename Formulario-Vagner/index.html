@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Formulario</h1>
+        
+        <div class="formulario">
+            <label for="nome"> Nome</label>
+            <input type="text" id="nome" class="input-padrao" required>
+
+            <label for="sobrenome"> Sobrenome</label>
+            <input type="text" id="sobrenome" class="input-padrao" required>
+
+            <label for="endereco"> Endereço</label>
+            <input type="text" id="endereco" class="input-padrao" required>
+
+            <label for="email"> Email</label>
+            <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone"> Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xx xxxxxxx">
+
+            <label for="mensagem"> Observações</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+
+                <legend> Como prefere seu contato?</legend>
+                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email </label>
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="email" id="radio-whatsapp">WhatsApp </label>
+                <label for="radio-telefone"> <input type="radio" name="contato" value="email" id="radio-telefone">Telefone </label>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
